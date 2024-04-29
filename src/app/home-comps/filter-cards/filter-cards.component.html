@@ -1,0 +1,47 @@
+<div class="Filter-And-Cards">
+    <div class="Products-And-Filter">
+        <div class="Filter-Card">
+            <div class="Filter-And-img">
+                <h3 class="Filter">Filter</h3>
+                <div class="img-1" src="https://scontent.ftbs5-3.fna.fbcdn.net/v/t1.15752-9/434766408_1187075026003454_2158127752754855811_n.png?stp=cp0_dst-png&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=xDpi60qO0GAAb4iQBAW&_nc_ht=scontent.ftbs5-3.fna&oh=03_AdWETytOVFtP4PLtrkGzVsMl5AsJ0SVRy9N_c-CiBUgiIw&oe=66437709"></div>
+            </div>
+            <div class="Spiciness-range">
+                <label for="range" class="range-lable">Spiciness: {{ sliderValue }}<span id="value"></span></label>
+                <input type="range" name="range" id="range" class="range-field"  min="-1" max="4" [(ngModel)]="sliderValue" (input)="onInputChange($event)" (change)="onChange($event)">
+            </div>
+            <label class="Checkboxs-1">
+                <input class="Checkbox" type="checkbox">
+                <h3 class="Nuts">No Nuts</h3>
+            </label>
+            <label class="Checkboxs-2">
+                <input class="Checkbox" type="checkbox">
+                <h3 class="Vegeterian">Vegeterian Only</h3>
+            </label>
+            <div class="buttons-1-1">
+                <h3 class="button-1" >Reset</h3>
+                <h3 class="button-2" >Apply Filter</h3>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="responsive">
+        <div class="cont">
+            <div class="card-border" *ngFor="let item of products">
+                <img class="images" [src]="item.image" [alt]="item.name">
+                <h3 class="names" >{{item.name}}</h3>
+                <p class="spiciness" >Spiciness: {{item.spiciness}}</p>
+                <div class="first-two-in-1">
+                    <p class="nuts">{{item.nuts}} Nuts</p>
+                    <p class="veg">{{item.vegeterian}} vegetarian</p>
+                </div>
+                <div class="second-two-in-1">
+                    <h2 class="prices" >$ {{item.price}}</h2>
+                    <h4 class="buttons" (click)="apiService.addToBasket(item.id)" >Add To Cart</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

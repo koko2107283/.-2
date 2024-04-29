@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+@font-face { 
+    font-family: Rame-Bold;
+    src: url(assets/Fonts/Rame-SemiBold.ttf) format('truetype');
+}
+
+.Rame-Bold {
+    font-family: Rame-Bold;
+}
+
+
+
+
+@font-face {
+    font-family: Rame-Light;
+    src: url(assets/Fonts/Rame-StraightLight.ttf) format('truetype');
+}
+
+.Rame-Light {
+    font-family: Rame-Light;
+}
+
+
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(assets/Fonts/Roboto-Light.ttf) format('truetype');
+}
+
+.Rame-Light {
+    font-family: Roboto-Light;
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 18px;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+

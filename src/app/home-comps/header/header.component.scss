@@ -1,0 +1,313 @@
+@media only screen and (max-width: 2720px) and (min-width: 2001px){
+    
+    .Container {
+        width: 70.5%;
+        height: 389px;
+        background-image: url(https://scontent.ftbs6-2.fna.fbcdn.net/v/t1.15752-9/422221804_442098844895337_285424521677156991_n.png?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=7pd_QPax_lQAb5SSPVN&_nc_ht=scontent.ftbs6-2.fna&oh=03_AdWPJueJcLhY-WBYkyOrBg_RxDB2tXooEi05jjouXCbtNA&oe=663E0DAD);
+        background-size: cover;
+        margin-bottom: 48px;
+        margin-left: 400px;
+    }
+
+    .img {
+        height: auto;
+        width: auto;
+    }
+    
+    a {
+        color: black;
+    }
+
+    .img-2 {
+        width: 172px;
+        height: 82px;
+        margin-top: 17px;
+        margin-left: 800px;
+    }
+    
+    .img-3 {
+
+        width: 28px;
+        height: 20px;
+        margin-top: 48px;
+        margin-left: -4px;
+    }
+    
+    .img-4  {
+
+        cursor: pointer;
+        width: 40px;
+        height: 29px;
+        margin-top: 45px;
+        margin-left: -18px;
+
+
+    }
+
+    .IV-K-responsive {
+        background-color: black;
+        width: 2720px;
+        margin-left: -400px;
+    }
+    
+    .sticky {
+        display: flex;
+    }
+
+    
+    .Header-Top-Row {
+        height: 120px;
+        display: flex;
+    
+    }
+
+    .Main-Pages {
+        display: flex;
+    }
+    
+    .Cart-Animation {
+        display: flex;
+    }
+
+    
+    .Home {
+
+        color: white;
+        font-family: Rame-Light;
+        font-size: 15px;
+        margin-top: 45px;
+        margin-left: 770px;
+    }
+    
+    .Cart {
+
+        color: white;
+        background-color: red;
+        width: 50px;
+        height: 27px;
+        padding-left: 7px;
+        border-radius: 3px;
+        margin-top: 45px;
+        margin-left: 80px;
+        font-family: Rame-Light;
+        font-size: 16px;
+    }
+    
+    .Text-1 {
+        color: white;
+        margin-top: 210px;
+        margin-left: -1715px;
+        width: 720px;
+        font-size: 15px;
+        font-family: Rame-Bold;
+    }
+
+
+    .responsive {
+        display: none;
+    }  
+
+
+    // არ არის დამთავრებული ყველაზე დიდი responsivi
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 2000px) and (min-width: 1025px){
+    header {
+        width: 100%;
+        height: 389px;
+        background-image: url(https://scontent.ftbs6-2.fna.fbcdn.net/v/t1.15752-9/422221804_442098844895337_285424521677156991_n.png?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=7pd_QPax_lQAb5SSPVN&_nc_ht=scontent.ftbs6-2.fna&oh=03_AdWPJueJcLhY-WBYkyOrBg_RxDB2tXooEi05jjouXCbtNA&oe=663E0DAD);
+        background-size: cover;
+        margin-bottom: 48px;
+    }
+    
+    
+    
+    .img {
+        height: auto;
+        width: auto;
+    }
+    
+    a {
+        color: black;
+    }
+    
+    
+    
+    
+    .img-2 {
+        position: fixed;
+        width: 172px;
+        height: 82px;
+        margin-top: 17px;
+        margin-left: 198px;
+    
+    }
+    
+    .img-3 {
+        position: fixed;
+        width: 28px;
+        height: 20px;
+        margin-top: 3px;
+        margin-left: 126px;
+    }
+    
+    .img-4  {
+        position: fixed;
+        cursor: pointer;
+        width: 40px;
+        height: 29px;
+        margin-top: -1px;
+        margin-left: 137px;
+        position: relative;
+    }
+    
+    
+    .sticky {
+        position: fixed;
+        background-color: rgba(5, 5, 5, 0.8);
+        width: 100%;
+        height: 105px;
+        z-index: 100;
+    }
+    
+    .Red-Rod-1 {
+        background-image: url(https://restaurant.stepprojects.ge/images/hover_bg.png);
+        height: 6px;
+        width: 100%;
+        margin-top: 29px;
+    }
+    
+    .Header-Top-Row {
+        height: 120px;
+        display: flex;
+    
+    }
+    
+    .Main-Pages {
+        display: flex;
+        margin-left: 1140px;
+        margin-top: 40px;
+        color: white;
+    }
+    
+    .Home {
+        position: fixed;
+        color: white;
+        font-family: Rame-Light;
+        font-size: 15px;
+    }
+    
+    .Cart {
+        position: fixed;
+        color: white;
+        background-color: red;
+        width: 50px;
+        height: 27px;
+        padding-left: 7px;
+        border-radius: 3px;
+        margin-left: 80px;
+        font-family: Rame-Light;
+        font-size: 16px;
+    }
+    
+    .Text-1 {
+        color: white;
+        margin-top: 210px;
+        margin-left: 404px;
+        width: 720px;
+        font-size: 15px;
+        font-family: Rame-Bold;
+    }
+
+
+    .responsive {
+        display: none;
+    }  
+}
+
+
+    
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .sticky {
+        display: none;
+    }
+
+    .Text-1 {
+        display: none;
+    }
+
+    header {
+
+        height: 200px;
+        background-image: url(https://scontent.ftbs6-2.fna.fbcdn.net/v/t1.15752-9/422221804_442098844895337_285424521677156991_n.png?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=7pd_QPax_lQAb5SSPVN&_nc_ht=scontent.ftbs6-2.fna&oh=03_AdWPJueJcLhY-WBYkyOrBg_RxDB2tXooEi05jjouXCbtNA&oe=663E0DAD);
+        background-size: cover;
+        margin-bottom: 24px;
+    }
+
+    .responsive-two-1 {
+        display: flex;
+    }
+
+    .img-2-1 {
+        margin-top: 15px;
+        margin-left: 18px;
+    }
+
+    .img--2 {
+        height: 80px;
+        width: 80px;
+        margin-left: 480px;
+        margin-top: 10px;
+    }
+
+    .responsive-Fast {
+        color: white;
+        font-size: 22px;
+        font-family: Rame-Bold;
+
+    }
+
+    .responsive-1 {
+        margin-left: 18px;  
+        margin-top: 10px;  
+    }
+
+    .responsive-2 {
+        margin-left: 240px;
+        margin-top: -10px;
+    }
+}

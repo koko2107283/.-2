@@ -1,0 +1,50 @@
+<div class="All">
+    <div class="title-cart">
+        <h3>Cart</h3>
+    </div>
+    <div class="all-top-row">
+        <div class="Product">
+            <h4>Product</h4>
+        </div>
+        <div class="Qty">
+            <h4>Qty</h4>
+        </div>
+        <div class="Price">
+            <h4>Price</h4>
+        </div>
+        <div class="Total">
+            <h4>Total</h4>
+        </div>
+    </div>
+
+    <div class="products">
+        <div class="product" *ngFor="let item of products">
+            <div class="responsive">
+                <img class="product-delete" (click)="apiService.deleteProduct(item.product.id)" src="https://cdn-icons-png.freepik.com/512/1/1766.png" alt="">
+                <div class="responsive-two-in-1">
+                    <img class="product-images" [src]="item.product.image" [alt]="item.product.name">
+                    <h4 class="product-name">{{item.product.name}}</h4>
+                </div>
+            </div>
+            <div class="first-three-in-1">
+                <img class="product-delete" (click)="apiService.deleteProduct(item.product.id)" src="https://cdn-icons-png.freepik.com/512/1/1766.png" alt="">
+                <img class="product-images" [src]="item.product.image" [alt]="item.product.name">
+                <h4 class="product-name">{{item.product.name}}</h4>
+            </div>
+            <div class="first-two-in-1">
+                <div class="quantity--plus-minus">
+                  <button class="quantity-plus" (click)="apiService.editProduct(item.quantity+1,item.product.id)">+</button>
+                    <p class="item-quantity">{{item.quantity}}</p>
+                    <button class="quantity-minus" (click)="apiService.editProduct(item.quantity-1,item.product.id)">-</button>  
+                </div>
+                <div class="second-two-in-1">
+                    <p class="product-price">${{item.product.price}}</p>
+                    <p class="product-total">$ {{item.product.total}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Proceed">
+        <h3 class="proceed-checkout">PROCEED TO CHECKOUT</h3>
+    </div>
+</div>

@@ -1,0 +1,381 @@
+@media only screen and (max-width: 1896px) and (min-width: 769px){
+
+    .All {
+        height: 400px;
+    }
+
+    .title-cart {
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 98%;
+        font-size: 32px;
+        font-family: Rame-Bold;
+    }
+
+    .all-top-row {
+        font-family: Roboto-Light;
+        display: flex;
+        justify-content: center;
+        margin-top: 45px;
+        margin-left: 205px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 16px;
+        background-color: rgba(227, 227, 227, 0.6235294118);
+        width: 1110px;
+        border-bottom: 4px rgb(163, 163, 163) solid;
+    }
+
+
+    .Qty {
+        margin-left: 600px;
+    }
+
+    .Price {
+        margin-left: 105px;
+    }
+
+    .Total {
+        margin-left: 110px;
+    }
+
+    .gray-rod-1 {
+        margin-left: 205px;
+        margin-top: -2px;
+        height: 6px;
+        background-image: url(https://restaurant.stepprojects.ge/images/gray_Hborder.png);
+        width: 74.2%;
+    }
+
+
+
+    .products {
+        margin-top: 10px;
+        margin-left: 200px;
+        display: block;
+        margin-bottom: 10px;
+
+    }
+
+    .product {
+        display: flex;
+        border-bottom: 4px rgb(163, 163, 163) solid;
+        width: 1110px;
+        margin-left: 5px;
+    }
+
+    .first-three-in-1 {
+        display: flex;
+    }
+
+    .product-delete {
+        margin-left: 10px;
+        margin-top: 5px;
+        height: 13px;
+        width: 13px;
+        cursor: pointer;
+    }
+
+    .product-images {
+        margin-left: 32px;
+        height: 100px;
+        width: 100px;
+    }
+
+    .product-name {
+        font-family: Roboto-Light;
+        font-size: 18px;
+        margin-left: 28px;
+        margin-top: -4px;
+    }
+
+    .first-two-in-1 {
+
+        margin-left: 340px;
+        display: flex;
+    }
+
+    .quantity-plus{
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+    }
+
+    .quantity-minus{
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+    }
+
+    .quantity--plus-minus {
+        font-family: Rame-Bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid rgba(156, 156, 156, 0.624) 2px;
+        margin-top: 15px;
+        width: 70px;
+        height: 25px;
+    }
+
+    .second-two-in-1 {
+        display: flex;
+        margin-top: 18px;
+        margin-left: 75px;
+        font-size: 20px;
+    }
+
+    .item-quantity {
+
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .product-total {
+        margin-left: 125px;
+    }
+
+    .total {
+        margin-top: 50px;
+    }
+
+    .Proceed {
+        font-family: Roboto-Light;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 220px;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .gray-rod-2 {
+        display: flex;
+        justify-content: center;
+        margin-left: 205px;
+        margin-top: 100px;
+        margin-left: -1030px;
+        height: 6px;
+        background-image: url(https://restaurant.stepprojects.ge/images/gray_Hborder.png);
+        width: 88.25%;
+    }
+
+    .proceed-checkout{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+        height: 40px;
+        width: 200px;
+        margin-top: 20px;
+        font-size: 14px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .proceed-checkout:hover{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: yellow;
+        height: 40px;
+        width: 200px;
+        margin-top: 20px;
+        font-size: 14px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+
+    .responsive {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .title-cart {
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 98%;
+        font-size: 32px;
+        font-family: Rame-Bold;
+    }
+
+    .all-top-row {
+        font-family: Roboto-Light;
+        display: flex;
+        justify-content: center;
+        margin-top: 8px;
+        margin-left: 130px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 16px;
+        background-color: rgba(227, 227, 227, 0.6235294118);
+        width: 510px;
+        border-bottom: 4px rgb(163, 163, 163) solid;
+    }
+
+
+    .Qty {
+        margin-left: 240px;
+    }
+
+    .Price {
+        margin-left: 40px;
+    }
+
+    .Total {
+        margin-left: 45px;
+        
+    }
+
+
+    .products {
+        margin-left: 130px;
+        display: block;
+        margin-bottom: 10px;
+        
+        
+    }
+
+    .product {
+        display: flex;
+        background-color: rgba(227, 227, 227, 0.6235294118);
+        width: 510px;
+        border-bottom: 4px rgb(163, 163, 163) solid;
+    }
+
+    .first-three-in-1 {
+        display: flex;
+    }
+
+    .product-delete {
+        margin-top: 20px;
+        height: 13px;
+        width: 13px;
+    }
+
+    .product-images {
+        margin-left: 16px;
+        height: 100px;
+        width: 100px;
+    }
+
+    .product-name {
+        font-family: Roboto-Light;
+        font-size: 18px;
+        margin-left: 15px;
+        margin-top: -15px;
+        width: 190px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .responsive {
+        display: flex;
+    }
+
+    .quantity-plus{
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+    }
+
+    .quantity-minus{
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+    }
+
+    .quantity--plus-minus {
+        font-family: Rame-Bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid rgba(156, 156, 156, 0.624) 2px;
+        margin-top: 15px;
+        width: 70px;
+        height: 25px;
+    }
+
+    .second-two-in-1 {
+        display: flex;
+        margin-top: 18px;
+        margin-left: 25px;
+        font-size: 20px;
+    }
+
+    .item-quantity {
+
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .product-total {
+        margin-left: 45px;
+
+    }
+
+
+
+
+
+    .proceed-checkout{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+        height: 40px;
+        width: 200px;
+        margin-left: 440px;
+        margin-top: 50px;
+        font-size: 14px;
+        transition: 0.5s;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    .proceed-checkout:hover{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: yellow;
+        height: 40px;
+        width: 200px;
+        margin-left: 440px;
+        margin-top: 50px;
+        font-size: 14px;
+        transition: 0.5s;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+
+    .first-three-in-1 {
+        display: none;
+    }
+
+
+    .first-two-in-1 {
+        
+        margin-left: 50px;
+        display: flex;
+    }
+
+
+}
+
+
+
+

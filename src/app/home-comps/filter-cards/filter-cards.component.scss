@@ -1,0 +1,531 @@
+
+@media only screen and (max-width: 2000px) and (min-width: 1025px){
+        // Both Filter Scss And Cards Scss
+
+    .Filter-And-Cards {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-left: -20px;
+        margin-bottom: 15px;
+    }
+
+
+    // filtris scssi
+
+    .Filter-Card {
+        border: solid rgba(227, 227, 227, 0.6235294118) 2px;
+        width: 260px;
+        height: 385px;
+        padding-left: 14px;
+        padding-top: 15px;
+        border-radius: 4px;
+        background-color: rgba(227, 227, 227, 0.6235294118);
+    }
+
+    .Filter-And-img {
+        font-family: Roboto-Light;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Filter {
+        font-size: 16px;
+        padding-top: 2px;
+        margin-bottom: 30px;
+    }
+
+    .img-1 {
+        background-image: url(https://scontent.ftbs5-3.fna.fbcdn.net/v/t1.15752-9/434766408_1187075026003454_2158127752754855811_n.png?stp=cp0_dst-png&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=xDpi60qO0GAAb4iQBAW&_nc_ht=scontent.ftbs5-3.fna&oh=03_AdWETytOVFtP4PLtrkGzVsMl5AsJ0SVRy9N_c-CiBUgiIw&oe=66437709);
+        width: 24px;
+        height: 24px;
+        background-size: cover;
+        margin-right: 15px;
+    }
+
+
+    .Spiciness-range {
+        position: relative;
+        text-align: center;
+    }
+
+    .range-lable {
+        display: block;
+        font-size: 2em;
+        color: #000000;
+        margin-bottom: 4px;
+        font-family: Roboto-Light;
+        font-size: 18px;
+        padding-right: 15px;
+    }
+
+    .range-field {
+        -webkit-appearance: none;
+        outline: none;
+        width: 220px;
+        height: 10px;
+        background: red;
+        border-radius: 20px;
+        margin-left: -15px;
+        
+    }
+
+    .range-field::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #ffffff;
+        border: solid black  1px;
+        cursor: pointer;
+    }
+
+
+    .Checkboxs-1 {
+        display: flex;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+
+    .Nuts {
+        font-family: Roboto-Light;
+        font-size: 18px;
+        margin-left: 15px;
+    }
+
+    .Checkbox {
+        width: 20px;
+        height: 20px;
+    }
+
+    .Vegeterian {
+        font-family: Roboto-Light;
+        font-size: 18px;
+        margin-left: 15px;
+    }
+
+    .add-on {
+        margin-top: 15px;
+    }
+
+
+    .Checkboxs-2 {
+        display: flex;
+        margin-left: 10px;
+        margin-top: 22px;
+    }
+
+    .button-1 {
+        margin-top: 35px;
+        background-color: orangered;
+        border-radius: 5px;
+        color: white;
+        font-family: Rame-Light;
+        width: 230px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .button-2 {
+        margin-top: 50px;
+        background-color: orangered;
+        border-radius: 5px;
+        color: white;
+        font-family: Rame-Light;
+        width: 230px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .img {
+        height: 300px;
+        width: 300px;
+    }
+
+
+
+
+
+
+
+    // Cardis scssi
+
+
+    .cont {
+        display: grid;
+        grid-template-columns: auto auto auto;
+
+
+        width: 50%;
+        gap: 20px;
+    }
+
+    .card-border {
+        border: solid rgba(227, 227, 227, 0.6235294118) 2px;
+        width: 250px;
+        height: 385px;
+        border-radius: 10px;
+        transition: 0.5s;
+        margin-bottom: 20px;
+        overflow-x: hidden;
+
+    }
+
+    .images {
+        margin-top: -33px;
+        height: 247px;
+        width: 247px;
+        background-color: rgba(197, 197, 197, 0.624);
+    }
+
+
+    .names {
+        font-family: Rame-Light;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        height: 76px;
+        margin-top: -38px;
+        position: relative;
+        background-color: white;
+        z-index: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .spiciness {
+        font-family: Roboto-Light;
+        color: black;
+        font-size: 13px;
+        letter-spacing: 0.75px;
+        display: flex;
+        justify-content: center;
+        margin-top: -3px;
+        z-index: 3px;
+        background-color: white;
+        margin-bottom: 15px;
+    }
+
+    .first-two-in-1 {
+        display: flex;
+        margin-bottom: 15px;
+    }
+
+    .nuts {
+        margin-left: 20px;
+    }
+
+    .veg {
+        margin-left: 15px;
+    }
+
+    .second-two-in-1 {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .buttons {
+        margin-left: 50px;
+        font-family: Roboto-Light;
+        cursor: pointer;
+        width: 108px;
+        height: 38px;
+        border-radius: 2px;
+        transition: 0.5s;
+        border: solid black 1px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+    }
+
+    .buttons:hover {
+        margin-left: 50px;
+        font-family: Roboto-Light;
+        cursor: pointer;
+        width: 108px;
+        height: 38px;
+        background-color: red;
+        color: white;
+        border-radius: 1px;
+        transition: 0.5s;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .Products-And-Filter {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 45px;
+    }
+
+    .Filter-Card {
+        border: solid rgba(227, 227, 227, 0.6235294118) 2px;
+        width: 320px;
+        height: 385px;
+        padding-left: 14px;
+        padding-top: 15px;
+        border-radius: 4px;
+        background-color: rgba(227, 227, 227, 0.6235294118);
+    }
+
+    .Filter-And-img {
+        font-family: Roboto-Light;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Filter {
+        font-size: 16px;
+        padding-top: 2px;
+        margin-bottom: 30px;
+    }
+
+    .img-1 {
+        background-image: url(https://scontent.ftbs5-3.fna.fbcdn.net/v/t1.15752-9/434766408_1187075026003454_2158127752754855811_n.png?stp=cp0_dst-png&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=xDpi60qO0GAAb4iQBAW&_nc_ht=scontent.ftbs5-3.fna&oh=03_AdWETytOVFtP4PLtrkGzVsMl5AsJ0SVRy9N_c-CiBUgiIw&oe=66437709);
+        width: 24px;
+        height: 24px;
+        background-size: cover;
+        margin-right: 15px;
+    }
+
+
+    .Spiciness-range {
+        position: relative;
+        text-align: center;
+    }
+
+    .range-lable {
+        display: block;
+        font-size: 2em;
+        color: #000000;
+        margin-bottom: 4px;
+        font-family: Roboto-Light;
+        font-size: 18px;
+        padding-right: 15px;
+    }
+
+    .range-field {
+        -webkit-appearance: none;
+        outline: none;
+        width: 240px;
+        height: 10px;
+        background: red;
+        border-radius: 20px;
+        margin-left: -15px;
+        
+    }
+
+    .range-field::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #ffffff;
+        border: solid black  1px;
+        cursor: pointer;
+    }
+
+
+    .Checkboxs-1 {
+        display: flex;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+
+    .Nuts {
+        font-family: Roboto-Light;
+        font-size: 18px;
+        margin-left: 15px;
+    }
+
+    .Checkbox {
+        width: 20px;
+        height: 20px;
+    }
+
+    .Vegeterian {
+        font-family: Roboto-Light;
+        font-size: 18px;
+        margin-left: 15px;
+    }
+
+    .add-on {
+        margin-top: 15px;
+    }
+
+
+    .Checkboxs-2 {
+        display: flex;
+        margin-left: 10px;
+        margin-top: 22px;
+    }
+
+    .button-1 {
+        margin-top: 35px;
+        background-color: orangered;
+        border-radius: 5px;
+        color: white;
+        font-family: Rame-Light;
+        width: 290px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .button-2 {
+        margin-top: 50px;
+        background-color: orangered;
+        border-radius: 5px;
+        color: white;
+        font-family: Rame-Light;
+        width: 290px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .img {
+        height: 300px;
+        width: 300px;
+    }
+
+
+
+
+
+
+    .responsive {
+        display: flex;
+        justify-content: center;
+        margin-left: -90px;
+    }
+
+    .cont {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 50%;
+        gap: 20px;
+    }
+
+    .card-border {
+        border: solid rgba(227, 227, 227, 0.6235294118) 2px;
+        width: 250px;
+        height: 385px;
+        border-radius: 10px;
+        transition: 0.5s;
+        margin-bottom: 20px;
+        overflow-x: hidden;
+
+    }
+
+    .images {
+        margin-top: -33px;
+        height: 247px;
+        width: 247px;
+        background-color: rgba(197, 197, 197, 0.624);
+    }
+
+
+    .names {
+        font-family: Rame-Light;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        height: 76px;
+        margin-top: -38px;
+        position: relative;
+        background-color: white;
+        z-index: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .spiciness {
+        font-family: Roboto-Light;
+        color: black;
+        font-size: 13px;
+        letter-spacing: 0.75px;
+        display: flex;
+        justify-content: center;
+        margin-top: -3px;
+        z-index: 3px;
+        background-color: white;
+        margin-bottom: 15px;
+    }
+
+    .first-two-in-1 {
+        display: flex;
+        margin-bottom: 15px;
+    }
+
+    .nuts {
+        margin-left: 20px;
+    }
+
+    .veg {
+        margin-left: 15px;
+    }
+
+    .second-two-in-1 {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .buttons {
+        margin-left: 50px;
+        font-family: Roboto-Light;
+        cursor: pointer;
+        width: 108px;
+        height: 38px;
+        border-radius: 2px;
+        transition: 0.5s;
+        border: solid black 1px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+    }
+
+    .buttons:hover {
+        margin-left: 50px;
+        font-family: Roboto-Light;
+        cursor: pointer;
+        width: 108px;
+        height: 38px;
+        background-color: red;
+        color: white;
+        border-radius: 1px;
+        transition: 0.5s;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+    }
+
+}
